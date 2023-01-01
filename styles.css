@@ -1,0 +1,136 @@
+
+/* -----------------css general*--------------*/
+body{
+    background-image: url("../Assets/Images/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color:white;
+}
+
+/*header*/
+.content_header{
+    background-color: rgb(131, 131, 131);
+}
+
+.h1_title{
+    font-size: 40px;
+    color:white
+}
+.G{
+    color:rgb(28, 138, 240);
+    font-size: 40px;
+    font-style: italic;
+}
+
+.F{
+    color:rgb(247, 51, 51);
+    font-size: 40px;
+    font-style: italic;
+}
+
+.content_link{
+    margin-left: 2%;
+}
+.nav-link{
+    color:white;
+    font-size: 20px;
+}
+
+/*main*/
+.content_banner
+{
+    /*background-color: red;*/
+    margin-top: 100px;
+}
+
+/*footer*/
+
+.content_footer{
+    margin-top: 50px;
+    background-color: rgb(131, 131, 131);
+}
+
+.col_img_reseau_social{
+    text-align: center;
+}
+.logo_reseau_social{
+    width: 100px;
+}
+
+.col_footer_identity
+{
+    text-align: center;
+}
+/*---------------------css index php---------------- */
+/*banner */
+.col_logo{
+    /*background-color: yellow;*/
+    text-align: center;
+}
+
+.logo{
+    width: 400px;
+}
+
+.article_banner{
+   /* background-color: blue;*/
+    width: 90%;   
+    font-size: 2em;
+    margin:15%;
+    margin-left: 2%;
+}
+
+/*banner console */ 
+
+.col_logo_console{
+    text-align: center;
+    /*background-color: red; */ 
+}
+
+.logo_console
+{
+    width: 200px;
+}
+
+/*banner info */
+
+.content_article_info{
+    background-color: rgb(131, 131, 131);
+    text-align: center;
+    padding: 50px;
+    box-shadow: 0px 0px 15px 5px white;
+    border-radius: 10px;
+}
+
+.link_evenement
+{
+    text-decoration: none;
+    color:orange;
+}
+
+/*---------------------css evenment php----------------- */
+.row_evenement{
+    background-color: red;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: gray;
+    box-shadow: 0px 0px 15px 5px white;
+    margin-top: 50px;
+}
+
+.col_evenment_title{
+   /* background-color: blue;*/
+    text-align: center;
+}
+
+.col_description_evenement{
+   /* background-color: green;*/
+    text-align: center;
+}
+
+.h3_evenement{
+    margin-top: 5%;
+}
